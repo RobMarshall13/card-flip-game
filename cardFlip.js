@@ -3,7 +3,6 @@ console.log('original array ' + array)
 
 function checkSolvable(){
     for( i =0; i < array.length; i++){
-        //this if statement does not execute
         if ((array[i] == '.') && ((i > 0) || (i < array.length))) {
            
             lowerArray = array.slice(0,i);
